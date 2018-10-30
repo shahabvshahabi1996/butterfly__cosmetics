@@ -1,0 +1,69 @@
+@font-face {
+    font-family: IRANsans;
+    src: url(./src/font/IRANSansUltraLight.ttf);
+}
+
+body{
+    font-family: "IRANsans";
+    overflow: hidden;
+    /* background-color: #252525; */
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #7ee8fa;
+    background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+
+}
+
+.col-md-4 {
+    margin: 0 auto;
+}
+.card-container {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 13%;
+    background-color: #ffffff;
+    border-radius: 2px;
+    padding: 15px;
+}
+
+.btn-block {
+    background-color: #252525;
+    color: #ffffff;
+    border-radius: 2px;
+    font-size: 18px;
+    border-color: transparent;
+    transition: all 0.5s;
+    -webkit-box-shadow: 0px 0px 18px 0px rgba(37,37,37,0.5);
+-moz-box-shadow: 0px 0px 18px 0px rgba(37,37,37,0.5);
+box-shadow: 0px 0px 18px 0px rgba(37,37,37,0.5);
+}
+
+.btn-block:hover {
+    color: #252525;
+    background-color: #ffffff;
+    border-color: #252525;
+    font-size: 18px;
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(37,37,37,1);
+-moz-box-shadow: 0px 0px 24px 0px rgba(37,37,37,1);
+box-shadow: 0px 0px 24px 0px rgba(37,37,37,1);
+}
+
+.img-content {
+    border-color: #eeeeee;
+    border-width: 10px;
+    border-style: solid;
+    text-align: center;
+    border-radius: 50%;
+    /* width: 100%; */
+    margin: 0 auto;
+}
+.img-container {
+    margin: 0 auto;
+    text-align: center;
+}
+@media screen and (max-width : 426px) {
+    .card-container {
+        margin-top: 35%;
+    }
+}
